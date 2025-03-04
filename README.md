@@ -68,25 +68,16 @@ In the project directory, you can run:
 
 This project follows a modular structure for better organization and maintainability. Here's an overview of the folder structure:
 
-- **apis**: Global functions used for any kind of interactions with APIs.
-- **assets**: Contains all images used thrughout the project.
-  - **each view (page name)**: Folder for storing images specific to a view.
 - **components**: Stateless components used in multiple places.
-- **consts**: Fixed variables.
-- **css**: View (page) specific css (style) files all exported into index.html.
-- **localStorage**: handles for adding, accessing and removing localStorage data.
+- **css**: View (page) css (style) file exported into index.html.
 - **node_modules**: stores all dependencies and libraries used throughout the project.
 - **pages**: Main folder for all the views (pages) in the application.
-  - **page names**: Individual folders for each view.
-  - **host pages**: Separete folder with all views (pages) relating to the user (host)
 - **public**: Stores all static assets that are not processed by the build system
 
 Below is an example folder structure for the "pages" view:
 
 ```
 pages/
-└─ Host/
-└─ HostDashboard/
-├── components/
+├── App.jsx/
 
 ```
