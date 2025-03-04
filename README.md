@@ -38,11 +38,6 @@ To start the development server, run:
 **npm run dev**
 The application will be accessible at **http://localhost:5173.**
 
-### Mock login credentials
-
-- username: b@b.com
-- password: p123
-
 ## Available Scripts
 
 Available Scripts
