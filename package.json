@@ -1,6 +1,6 @@
 {
   "name": "tenzies-game",
-  "description": "https://scrimba.com/the-frontend-developer-career-path-c0j/~06wf/s067kfg3r1/head",
+  "description": "A fast-paced and engaging dice game built with React and it's basic features.",
   "scripts": {
     "start": "vite",
     "dev": "vite",
