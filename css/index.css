@@ -6,7 +6,7 @@ body {
     font-family: Karla, sans-serif;
     margin: 0;
     background-color: #0B2434;
-    padding: 20px;
+    padding: 1.25rem;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ main {
 }
 
 .title {
-    font-size: 40px;
+    font-size: 2.5rem;
     margin: 0;
 }
 
@@ -46,8 +46,8 @@ main {
 .dice-container {
     display: grid;
     grid-template: auto auto / repeat(5, 1fr);
-    gap: 20px;
-    margin-bottom: 40px;
+    gap: 1.25rem;
+    margin-bottom: 2.5rem;
 }
 
 button {
@@ -56,8 +56,8 @@ button {
 }
 
 .dice-container button {
-    height: 50px;
-    width: 50px;
+    height: 3.125rem;
+    width: 3.125rem;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     border: none;
@@ -67,10 +67,10 @@ button {
 }
 
 button.roll-dice {
-    height: 50px;
+    height: 3.125rem;
     white-space: nowrap;
     width: auto;
-    padding: 6px 21px;
+    padding: 0.4rem 1.25rem;
     border: none;
     border-radius: 6px;
     background-color: #5035FF;
@@ -92,7 +92,7 @@ button.roll-dice {
 
 .rollbtn-sec {
     display: flex;
-    gap: 1.5em;
+    gap: 1.5rem;
     align-items: center;
 }
 
@@ -102,8 +102,8 @@ button.roll-dice {
 }
 
 .die {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     background: white;
     border: 2px solid black;
     border-radius: 8px;
@@ -111,13 +111,13 @@ button.roll-dice {
     justify-content: center;
     align-items: center;
     position: relative;
-    margin: 5px;
+    margin: 0.4rem;
 }
 
 /* Common styles for pips */
 .pip {
-    width: 10px;
-    height: 10px;
+    width: 0.7rem;
+    height: 0.7rem;
     background: black;
     border-radius: 50%;
     position: absolute;
